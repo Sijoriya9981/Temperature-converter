@@ -1,0 +1,87 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+.card {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.card-header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+.card-content {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+
+}
+
+
+
+
+.select-field {
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 22px;
+
+}
+
+.select-field label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.select-field select {
+  width: 100%;
+  padding: 5px;
+
+}
+
+.input-field {
+  margin-bottom: 30px;
+  margin-left: 100px;
+  margin-right: 22px;
+}
+
+.input-field label {
+  display: block;
+
+  margin-bottom: 5px;
+}
+
+.input-field input {
+  width: 70%;
+  padding: 5px;
+}
+
+.submit-button {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.submit-button button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@media (max-width: 500px) {
+  .card {
+    max-width: 100%;
+  }
+}

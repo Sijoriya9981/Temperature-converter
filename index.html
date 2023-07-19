@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>TempErature ConvErter</title>
+  <link rel="stylesheet" href="style.css">
+ 
+</head>
+
+<body>
+  <div class="card">
+    <div class="card-header">
+      <h2>Temperature Converter</h2>
+    </div>
+    <center>
+      <div class="card-content">
+        <div class="select-field">
+
+          <label for="option1">From</label>
+          <select  name="option1" id="option1">
+            <option value="Fahrenheit">Fahrenheit(F)</option>
+            <option value="Celsius">Celsius(°C)</option>
+            <option value="Kelvin">Kelvin(K)</option>
+          </select>
+        </div>
+        <div class="select-field">
+
+
+          <label for="option2">To</label>
+          <select name="option2" id="option2">
+            <option value="Fahrenheit">Fahrenheit(F)</option>
+            <option value="Celsius"> Celsius(°C)</option>
+            <option value="Kelvin">Kelvin(K)</option>
+          </select>
+
+        </div>
+
+    </center>
+
+    <div class="input-field">
+      <label >Enter temperature:</label>
+      <input type="number" id="input"  placeholder="" required>
+    </div>
+    <center>
+      <div class="submit-button">
+        <button type="submit" value="Convert" id="submit"> Convert</button>
+      </div>
+      <div >
+        <br>
+       
+        <p id="answer"></p>
+      </div>
+    </center>
+
+  </div>
+
+  </div>
+
+
+
+ <script src="script.js"></script>
+</body>
+
+</html>
